@@ -5,6 +5,8 @@
 #include <vector>
 #include <queue>
 #include <string>
+
+//comment this out when in leetcode
 template <typename Iter>
 std::string join(const std::vector<int>& sequence,  std::string separator)
 {
@@ -92,10 +94,10 @@ int main()
             }
         }
         ret_vals[x] = values;
-        std::cout << join<std::vector<int>::iterator>(values, ",")<<"]";
+        std::cout << join<std::vector<int>::iterator>(values, ",")<<"]";//comment out in leetcode
 
     }
-    //return ret_vals
+    //return ret_vals//uncomment in leetcode
 }
 
 // Run program: Ctrl + F5 or Debug > Start Without Debugging menu
